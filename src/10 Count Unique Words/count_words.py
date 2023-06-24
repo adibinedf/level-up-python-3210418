@@ -11,7 +11,7 @@ def count_words(path):
         word_counts = collections.Counter(all_words)
 
         print('\nTop 20 Words:')
-        for word in word_counts.most_common(20):
+        for word in word_counts.most_common(20): # most_common() returns a list of top 'n' elements from most common to least common, as specified the parameter 'n'.
             print(f'{word[0]}\t{word[1]}')
 
 
