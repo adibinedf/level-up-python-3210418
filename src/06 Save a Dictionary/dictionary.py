@@ -1,5 +1,5 @@
 import pickle
-
+# Pickle module: https://docs.python.org/3/library/pickle.html
 def save_dict(dict_to_save, file_path):
     with open(file_path, 'wb') as file:
         pickle.dump(dict_to_save, file)
